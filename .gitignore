@@ -226,6 +226,10 @@ config
 .DS_Store
 Thumbs.db
 
+# AgentCore local runtime metadata
+*.bedrock_agentcore.yaml
+.bedrock_agentcore.yaml
+
 # Additional IDE
 *.swp
 *.swo

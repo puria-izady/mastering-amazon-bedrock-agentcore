@@ -5,7 +5,7 @@ Build a production-ready AI Travel Companion using Amazon Bedrock AgentCore that
 
 ## Quick Start
 1. **Prerequisites**: AWS Account, Python 3.9+, Node.js 18+
-2. **Setup**: Follow notebooks in order (01-foundation → 09-optimization)
+2. **Setup**: Follow notebooks in order (01-foundation → 11-agentcore_evaluations_lab)
 3. **Deploy**: Use provided CDK templates for AWS deployment
 4. **Monitor**: Access CloudWatch dashboards for observability
 
@@ -20,8 +20,10 @@ capstone-project/
 │   ├── 05-identity-oauth.ipynb
 │   ├── 06-code-interpreter.ipynb
 │   ├── 07-browser-tools.ipynb
-│   ├── 08-observability.ipynb
-│   └── 09-optimization.ipynb
+│   ├── 08-final-integration.ipynb
+│   ├── 09-agentcore_observability_lab.ipynb
+│   ├── 10-agentcore_policy_lab.ipynb
+│   └── 11-agentcore_evaluations_lab.ipynb
 ├── backend/                # Python AgentCore implementation
 ├── frontend/               # TypeScript + React UI
 ├── infrastructure/         # AWS CDK deployment
@@ -35,8 +37,8 @@ Each notebook builds upon the previous, teaching AgentCore components progressiv
 **Phase 1**: Foundation & Runtime  
 **Phase 2**: Gateway & Memory  
 **Phase 3**: Identity & Code Interpreter  
-**Phase 4**: Browser Tools & Observability  
-**Phase 5**: Production Deployment & Optimization  
+**Phase 4**: Browser Tools & Final Integration  
+**Phase 5**: Observability, Policy & Evaluations  
 
 ## Key Features Implemented
 - ✅ Conversational travel planning with clarifying questions

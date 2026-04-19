@@ -31,6 +31,9 @@ The course follows a progressive, notebook-based approach where each chapter bui
 6. **[Code Interpreter](capstone_project/notebooks/06-code-interpreter.ipynb)** - Dynamic code execution for calculations
 7. **[Browser Tools](capstone_project/notebooks/07-browser-tools.ipynb)** - Web scraping and research capabilities
 8. **[Final Integration](capstone_project/notebooks/08-final-integration.ipynb)** - Bringing it all together
+9. **[AgentCore Observability Lab](capstone_project/notebooks/09-agentcore_observability_lab.ipynb)** - Tracing sessions, spans, and CloudWatch telemetry
+10. **[AgentCore Policy Lab](capstone_project/notebooks/10-agentcore_policy_lab.ipynb)** - Applying guardrails and runtime policy controls
+11. **[AgentCore Evaluations Lab](capstone_project/notebooks/11-agentcore_evaluations_lab.ipynb)** - Running offline and online evaluations for production agents
 
 ## Prerequisites
 
@@ -110,7 +113,7 @@ jupyter notebook capstone_project/notebooks/01-foundation.ipynb
 ```
 mastering-amazon-bedrock-agentcore/
 ├── capstone_project/           # Main course project
-│   ├── notebooks/              # Interactive learning notebooks (01-08)
+│   ├── notebooks/              # Interactive learning notebooks (01-11)
 │   │   ├── 01-foundation.ipynb
 │   │   ├── 02-runtime-setup.ipynb
 │   │   ├── 03-gateway-integration.ipynb
@@ -119,6 +122,9 @@ mastering-amazon-bedrock-agentcore/
 │   │   ├── 06-code-interpreter.ipynb
 │   │   ├── 07-browser-tools.ipynb
 │   │   ├── 08-final-integration.ipynb
+│   │   ├── 09-agentcore_observability_lab.ipynb
+│   │   ├── 10-agentcore_policy_lab.ipynb
+│   │   ├── 11-agentcore_evaluations_lab.ipynb
 │   │   └── environments/       # Configuration files
 │   ├── backend/                # Python implementation
 │   │   ├── gateway/            # API Gateway setup

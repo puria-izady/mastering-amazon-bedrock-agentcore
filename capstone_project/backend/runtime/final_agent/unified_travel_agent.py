@@ -20,7 +20,7 @@ from identity_helper import IdentityHelper
 
 # Configuration from environment variables
 REGION = os.environ.get("AWS_REGION", "us-east-1")
-MODEL_ID = os.environ.get("MODEL_ID", "us.anthropic.claude-3-7-sonnet-20250219-v1:0")
+MODEL_ID = os.environ.get("MODEL_ID", "global.anthropic.claude-haiku-5-5")
 
 # Gateway configuration from environment
 GATEWAY_ID = os.environ.get("GATEWAY_ID")

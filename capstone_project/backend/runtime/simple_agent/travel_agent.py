@@ -58,7 +58,7 @@ def get_destination_info(destination: str):
     return destinations.get(destination.lower(), {"error": "Destination not found"})
 
 # Initialize model and agent
-model_id = "us.anthropic.claude-3-7-sonnet-20250219-v1:0"
+model_id = "global.anthropic.claude-haiku-5-5"
 model = BedrockModel(model_id=model_id)
 
 system_prompt = """

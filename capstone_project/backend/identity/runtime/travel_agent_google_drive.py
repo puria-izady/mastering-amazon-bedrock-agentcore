@@ -98,7 +98,7 @@ def save_itinerary_to_drive(destination: str, itinerary_content: str) -> str:
 
 # Initialize the agent
 agent = Agent(
-    model="us.anthropic.claude-3-7-sonnet-20250219-v1:0",
+    model="global.anthropic.claude-haiku-5-5",
     tools=[save_itinerary_to_drive],
     system_prompt="""
 You are a helpful travel planning assistant with the ability to save itineraries to Google Drive.

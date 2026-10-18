@@ -20,7 +20,7 @@ from identity_helper import IdentityHelper
 
 # Configuration from environment variables
 REGION = os.environ.get("AWS_REGION", "us-east-1")
-MODEL_ID = os.environ.get("MODEL_ID", "us.anthropic.claude-3-7-sonnet-20250219-v1:0")
+MODEL_ID = os.environ.get("MODEL_ID", "openai.gpt-oss-120b-1:0")
 
 # Gateway configuration from environment
 GATEWAY_ID = os.environ.get("GATEWAY_ID")
